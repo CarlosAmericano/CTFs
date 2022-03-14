@@ -1,0 +1,4 @@
+Barbara 'Oracle' Gordon has tried to create a script that deploys all of our images from the image gallery.
+
+When running a scripted deployment of virtual machines, all with 4 cores and 4GB of RAM, we are getting a report that our image gallery does not allow deployment of one of the VMs.
+Which of the VMs cannot be deployed?

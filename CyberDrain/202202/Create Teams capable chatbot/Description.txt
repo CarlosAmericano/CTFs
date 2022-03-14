@@ -1,0 +1,2 @@
+Azure services are getting more and more advanced, next to PaaS and IaaS there are so many more options. For this challenge, you'll have to create your own Chatbot. There's no coding experience required. Keywords; Q&AMaker & Quickstart: question answering
+The flag is a link to your chatbot, where we can ask it the question "What is the best CTF in the world?"

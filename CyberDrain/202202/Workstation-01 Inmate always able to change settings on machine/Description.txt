@@ -1,0 +1,1 @@
+The inmate who broke the machine turned out to be Edward Nigma. The guards report he always seems to be able to do whatever he wants to the machine, no matter how many times they check permissions and reset the admin password. The flag is the password for the account that Edward is using on Workstation-01

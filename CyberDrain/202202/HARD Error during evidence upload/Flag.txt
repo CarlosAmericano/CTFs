@@ -1,0 +1,6 @@
+https://askubuntu.com/questions/3883/how-to-recover-deleted-files
+Boot the machine and run the following command straight away or on the hdd as a secondary one
+grep -a -B 25 -A 100 '8db5dfdc-746a-4168-804b-a0e84b52eca2' /dev/sda1 > result.txt
+Check results and remove the clutter, you will end up with a base64 encoded file.
+Decode it and you will get the png file
+Caretaker-Lake-Neglector7-Parade

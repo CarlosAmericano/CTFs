@@ -1,0 +1,5 @@
+An officer was uploading some important evidence, in preperation for a court case. During the upload he recived an error:
+
+"Submission Failed! Please Contact your System Administrator Reference ID: 8db5dfdc-746a-4168-804b-a0e84b52eca2"
+
+He panicked about the error thinking the file was a virus and permanently deleted his local copy. Recover the file.

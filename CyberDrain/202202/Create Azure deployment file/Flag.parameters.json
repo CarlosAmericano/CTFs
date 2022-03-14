@@ -1,0 +1,38 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "baseName": {
+            "value": "CIPP"
+        },
+        "TenantID": {
+            "value": "YourTenant.onmicrosoft.com"
+        },
+        "ApplicationID": {
+            "value": "LongApplicationID"
+        },
+        "ApplicationSecret": {
+            "value": "LongApplicationSecret"
+        },
+        "Refreshtoken": {
+            "value": "LongRefreshtoken"
+        },
+        "ExchangeRefreshToken": {
+            "value": "LongRefreshtoken"
+        },
+        "GithubRepository": {
+            "value": "https://github.com/CarlosAmericano/CIPP"
+        },
+        "GithubToken": {
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/xxxxxxxxxxxxxx/resourceGroups/CTF/providers/Microsoft.KeyVault/vaults/xxxxxx"
+                    },
+                    "secretName": "githubtoken"
+            }
+        },
+        "GithubAPIRepository": {
+            "value": "https://github.com/CarlosAmericano/CIPP-API"
+        }
+    }
+}

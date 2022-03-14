@@ -1,0 +1,5 @@
+The following script fails due to multiple mistakes, both in logic and commands.
+
+These exersises do not use actual data. You can generate your own example data.
+
+The flag are the line numbers that need to be changed, seperated by a comma. example: 1,2,3

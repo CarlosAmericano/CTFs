@@ -1,0 +1,4 @@
+Auto-shutdown
+
+Source:
+https://azure.microsoft.com/en-us/blog/announcing-auto-shutdown-for-vms-using-azure-resource-manager/

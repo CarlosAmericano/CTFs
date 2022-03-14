@@ -1,0 +1,4 @@
+Challenge info
+The virtual machine "VM-01" reboots randomly during the month. Find out the reason for these reboots
+
+The flag is the reason.

@@ -1,0 +1,2 @@
+Create a script that pins the hidden icons present in the systray in to the systray so they are not hidden anymore and are visible.
+

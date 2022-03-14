@@ -1,0 +1,3 @@
+Bruce Wayne logged into his Azure Virtual Desktop but cannot save any files. He keeps getting errors about storage sizes
+
+The flag is the name of the azure file share that ran out of space

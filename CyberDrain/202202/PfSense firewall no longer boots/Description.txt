@@ -1,0 +1,3 @@
+After installing an update, the PfSense virtual lab no longer boots. Resolve the error.
+
+The flag can be found at the location you permanently fix the issue, include the #.

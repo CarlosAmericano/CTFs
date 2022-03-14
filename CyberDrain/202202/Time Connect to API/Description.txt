@@ -1,0 +1,7 @@
+WARNING: Starting this challenge by using the link below starts a 30 minute timer that cannot be stopped. There are no retries. Click on the URL below to start the timer and receive your token. Remember to add your own e-mail address to the URL: https://cyberdrainctf.azurewebsites.net/api/API2022?email=YOUREMAILADDRESSHERE@EMAIL.COM
+
+You need to connect to the API at https://cyberdrainctf.azurewebsites.net/api/CTFAPI succesfully. You have 30 minutes to figure this out.
+
+When you've connected succesfully you will receive a token, use this to claim your flag:
+
+https://cyberdrainctf.azurewebsites.net/api/API2022?email=YOUREMAIL@EMAIL.COM&Token=YOURTOKEN

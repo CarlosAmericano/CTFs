@@ -1,0 +1,1 @@
+There is a Microsoft Flow available for users to scan to a specific sharepoint site. Our Admin shared this flow with you. Since a little while the Flow is no longer working. The flag is the reason the flow fails

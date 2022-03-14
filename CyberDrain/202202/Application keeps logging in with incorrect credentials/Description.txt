@@ -1,0 +1,2 @@
+We've created the function app named "Clark Kent Disguise Generator" that keeps using the wrong credentials to logon to the environments. Each time it tries the logon fails.
+The flag is found where the cause of the failure is.
