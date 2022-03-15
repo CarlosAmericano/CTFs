@@ -5,15 +5,15 @@ $url="https://cyberdrainctf.azurewebsites.net/api/CTFAPI"
 
 $body1="thank you"
 $body2="You are very welcome!"
-$body3="carlos.americano@gmail.com"
+$body3="xxxxxxxxxx"
 
 <#
 
-https://cyberdrainctf.azurewebsites.net/api/API2022?email=carlos.americano@gmail.com
+https://cyberdrainctf.azurewebsites.net/api/API2022?email=xxxxxxxxxxx
 
 
 
-https://cyberdrainctf.azurewebsites.net/api/API2022?email=carlos.americano@gmail.com&Token=fb245a20-56aa-4fc9-8fd4-80db74aed574
+https://cyberdrainctf.azurewebsites.net/api/API2022?email=xxxxxxx&Token=fb245a20-56aa-4fc9-8fd4-80db74aed574
 #>
 
 $message="Just because i know you will be looking at the logs, this is not cheating!! :D"

@@ -1,0 +1,3 @@
+The warden has purchased some new prison management software without talking to IT first.
+The developers of the software are insisting that your users need to have local administrator rights.
+Fix the problem that is causing the application to need admin rights and run it as a standard user and you will be given the key.

@@ -1,0 +1,1 @@
+One of the inmates was caught playing with Workstation-01, it now will not start. The flag can be found in c:\\ImportantFiles\\flag.txt",

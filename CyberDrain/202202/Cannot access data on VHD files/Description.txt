@@ -1,0 +1,2 @@
+One of the virtual machines had a snapshot. We've started a merge on this snapshot but power went out as Wayne Tower exploded. We cannot boot the VM anymore.
+Make the VM bootable once more. The flag is on one of the drives.",

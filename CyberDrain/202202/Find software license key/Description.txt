@@ -1,0 +1,4 @@
+For this challenge you'll need the **Workstation-02** virtual lab. 
+Mr Al Ghul paid for a license of \"The league of shadows communicator\" and would like his license to be retrieved. 
+He remembers that he is only able to use the application logged in under the \"Ras\" user.
+The recovered files from the machine are in c:\\Recovered Files on Workstation-02. The flag is the license key.",

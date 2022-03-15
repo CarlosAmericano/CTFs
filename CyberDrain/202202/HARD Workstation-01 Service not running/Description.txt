@@ -1,0 +1,3 @@
+It looks like Edward was able to block our montioring software from working on Workstation-01. 
+The service InmateMonitoring will not start.
+The flag will be written to the event log once you have fixed what Edward has done. Please provide details on how you got to the flag.",
