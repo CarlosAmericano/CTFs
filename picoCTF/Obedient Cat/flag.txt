@@ -1,3 +1,0 @@
-Just open the file in a text editor
-
-picoCTF{s4n1ty_v3r1f13d_28e8376d}

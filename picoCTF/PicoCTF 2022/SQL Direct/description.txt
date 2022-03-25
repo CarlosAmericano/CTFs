@@ -1,0 +1,5 @@
+AUTHOR MUBARAK MIKAIL  LT 'SYREAL' JONES
+
+Description
+Connect to this PostgreSQL server and find the flag!
+psql -h saturn.picoctf.net -p 62635 -U postgres pico
