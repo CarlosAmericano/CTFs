@@ -1,5 +1,0 @@
-AUTHOR: MUBARAK MIKAIL
-
-Description
-Can you decrypt this message?
-Decrypt this message using this key "CYLAB".

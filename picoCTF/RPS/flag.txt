@@ -1,0 +1,4 @@
+#if (strstr(player_turn, loses[computer_turn]))
+This is the vuln condition
+
+picoCTF{50M3_3X7R3M3_1UCK_58F0F41B}

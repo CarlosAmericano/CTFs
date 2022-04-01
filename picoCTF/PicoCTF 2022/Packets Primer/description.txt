@@ -1,6 +1,0 @@
-AUTHOR: LT 'SYREAL' JONES
-
-Description
-Download the packet capture file and use packet analysis software to find the flag.
-Download packet capture
-

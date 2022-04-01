@@ -1,0 +1,6 @@
+AUTHOR: ALEX FULTON / PALASH OSWAL
+
+Description
+Smash the stack
+Let's start off simple, can you overflow the correct buffer? The program is available here. You can view source here. And connect with it using:
+nc saturn.picoctf.net 53935

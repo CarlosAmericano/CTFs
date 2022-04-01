@@ -1,5 +1,0 @@
-AUTHOR: LT 'SYREAL' JONES
-
-Description
-Download this packet capture and find the flag.
-Download packet capture

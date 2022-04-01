@@ -1,5 +1,0 @@
-PS C:\CTF\Vigenere> Invoke-PCVigenereDecipher -Ciphertext $cipher -Key "CYLAB" |fl
-
-Plaintext  : picoCTF{D0NT_US3_V1G3N3R3_C1PH3R_ae82272q}
-Ciphertext : rgnoDVD{O0NU_WQ3_G1G3O3T3_A1AH3S_cc82272b}
-Key        : CYLAB
