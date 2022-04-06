@@ -1,4 +1,4 @@
-
+# Doesnt work =D
 #!/bin/bash
 # Tested using bash version 4.1.5
 rm log.log
