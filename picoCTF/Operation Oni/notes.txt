@@ -1,0 +1,4 @@
+sudo apt install sleuthkit
+ 
+ssh -i key_file -p 59644 ctf-player@saturn.picoctf.net
+

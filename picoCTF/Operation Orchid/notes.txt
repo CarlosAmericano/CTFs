@@ -1,0 +1,5 @@
+ sudo apt install sleuthkit
+ gzip -d disk.flag.img.gz
+ mmls disk.flag.img
+ fls -o 411648 -r disk.flag.img | grep flag
+ icat -o 411648 disk.flag.img 1876
