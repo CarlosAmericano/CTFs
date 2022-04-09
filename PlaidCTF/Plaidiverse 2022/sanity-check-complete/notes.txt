@@ -1,0 +1,2 @@
+echo '}!esrevidialP_oT_emocleW_erutuF_ehT_0T_emocleW{FTCP' | rev
+PCTF{Welcome_T0_The_Future_Welcome_To_Plaidiverse!}

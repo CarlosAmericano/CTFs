@@ -1,0 +1,2 @@
+C:\GitHub\CTFs\picoCTF\Codebook>code.py
+picoCTF{c0d3b00k_455157_d9aa2df2}

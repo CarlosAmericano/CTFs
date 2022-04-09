@@ -1,0 +1,5 @@
+AUTHOR LT 'SYREAL' JONES
+
+Description
+If you want to hash with the best, beat this test!
+nc saturn.picoctf.net 54555
