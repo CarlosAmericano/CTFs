@@ -10,7 +10,7 @@ import base64
 
 # GLOBALS --v
 arcane_loop_trial = True
-jump_into_full = False
+jump_into_full = True
 full_version_code = ""
 
 username_trial = "GOUGH"
@@ -142,53 +142,64 @@ def check_key(key, username_trial):
     global key_full_template_trial
 
     if len(key) != len(key_full_template_trial):
+        print(len(key_full_template_trial))
         return False
     else:
         # Check static base key part --v
         i = 0
         for c in key_part_static1_trial:
+            #print(i)
             if key[i] != c:
+                #print (c)
                 return False
 
             i += 1
 
         # TODO : test performance on toolbox container
         # Check dynamic part --v
+        print(hashlib.sha256(username_trial).hexdigest()[4])
+        print(hashlib.sha256(username_trial).hexdigest()[5])
+        print(hashlib.sha256(username_trial).hexdigest()[3])
+        print(hashlib.sha256(username_trial).hexdigest()[6])
+        print(hashlib.sha256(username_trial).hexdigest()[2])
+        print(hashlib.sha256(username_trial).hexdigest()[7])
+        print(hashlib.sha256(username_trial).hexdigest()[1])
+        print(hashlib.sha256(username_trial).hexdigest()[8])
         if key[i] != hashlib.sha256(username_trial).hexdigest()[4]:
             return False
         else:
             i += 1
-
+        print(hashlib.sha256(username_trial).hexdigest()[5])
         if key[i] != hashlib.sha256(username_trial).hexdigest()[5]:
             return False
         else:
             i += 1
-
+        print(hashlib.sha256(username_trial).hexdigest()[3])
         if key[i] != hashlib.sha256(username_trial).hexdigest()[3]:
             return False
         else:
             i += 1
-
+        print(hashlib.sha256(username_trial).hexdigest()[6])
         if key[i] != hashlib.sha256(username_trial).hexdigest()[6]:
             return False
         else:
             i += 1
-
+        print(hashlib.sha256(username_trial).hexdigest()[2])
         if key[i] != hashlib.sha256(username_trial).hexdigest()[2]:
             return False
         else:
             i += 1
-
+        print(hashlib.sha256(username_trial).hexdigest()[7])
         if key[i] != hashlib.sha256(username_trial).hexdigest()[7]:
             return False
         else:
             i += 1
-
+        print(hashlib.sha256(username_trial).hexdigest()[1])
         if key[i] != hashlib.sha256(username_trial).hexdigest()[1]:
             return False
         else:
             i += 1
-
+        print(hashlib.sha256(username_trial).hexdigest()[8])
         if key[i] != hashlib.sha256(username_trial).hexdigest()[8]:
             return False
 
