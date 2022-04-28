@@ -1,0 +1,20 @@
+How many visible files are there in the home directory(excluding ./ and ../)?
+8
+
+What is the content of file5?
+recipes
+
+Which file contains the string ‘password’?
+file6
+
+What is the IP address in a file in the home folder?
+10.0.0.05
+
+How many users can log into the machine?
+3
+
+What is the sha1 hash of file8?
+fa67ee594358d83becdd2cb6c466b25320fd2835
+
+What is mcsysadmin’s password hash?
+$6$jbosYsU/$qOYToX/hnKGjT0EscuUIiIqF8GHgokHdy/Rg/DaB.RgkrbeBXPdzpHdMLI6cQJLdFlS4gkBMzilDBYcQvu2ro/

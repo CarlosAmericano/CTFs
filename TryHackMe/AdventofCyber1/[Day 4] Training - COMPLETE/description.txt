@@ -1,0 +1,13 @@
+With the entire incident, McElferson has been very stressed.
+
+We need all hands on deck now
+
+To help resolve things faster, she has asked you to help the new intern(mcsysadmin) get familiar with Linux. 
+Access the machine via SSH on port 22 using the command
+
+ssh mcsysadmin@[your-machines-ip]
+
+username: mcsysadmin
+password: bestelf1234
+
+Check out the supporting material here
