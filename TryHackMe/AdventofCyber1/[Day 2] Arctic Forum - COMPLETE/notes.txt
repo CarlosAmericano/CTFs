@@ -1,0 +1,54 @@
+Install dirsearch
+	7  git clone https://github.com/maurosoria/dirsearch.git
+    8  sudo apt install git
+    9  ls
+   10  git clone https://github.com/maurosoria/dirsearch.git
+   11  ls
+   12  cd dirsearch/
+   13  ls
+   14  pip3
+   15  sudo apt install python3-pip
+   16  pip3 install -r requirements.txt
+   17  ./dirsearch.py - 10.10.219.244:3000 -w ../../wordlists/DirBuster-Lists/directory-list-2.3-medium.txt -e html
+
+
+Run
+./dirsearch.py -u 10.10.219.244:3000 -w ../../wordlists/DirBuster-Lists/directory-list-2.3-medium.txt -e html
+Extensions: html | HTTP method: GET | Threads: 25 | Wordlist size: 220545
+Output File: /home/linux/Documents/dirsearch/dirsearch/reports/10.10.219.244_3000_22-04-27_20-49-22.txt
+
+Target: http://10.10.219.244:3000/
+
+[20:49:23] Starting:
+[20:49:25] 302 -   28B  - /home  ->  /login
+[20:49:25] 200 -    2KB - /login
+[20:49:28] 302 -   27B  - /admin  ->  /home
+[20:49:28] 302 -   28B  - /Home  ->  /login
+[20:49:28] 301 -  179B  - /assets  ->  /assets/
+[20:49:30] 301 -  173B  - /css  ->  /css/
+[20:49:32] 200 -    2KB - /Login
+[20:49:33] 301 -  171B  - /js  ->  /js/
+[20:49:34] 302 -   28B  - /logout  ->  /login
+[20:49:54] 200 -    2KB - /sysadmin
+[20:50:10] 302 -   27B  - /Admin  ->  /home
+[20:50:54] 302 -   28B  - /HOME  ->  /login
+[20:51:13] 302 -   28B  - /Logout  ->  /login
+CTRL+C detected: Pausing threads, please wait...
+
+
+
+
+view-source:http://10.10.219.244:3000/sysadmin
+
+</div>
+    <!--
+    Admin portal created by arctic digital design - check out our github repo
+    -->
+</html>
+
+https://github.com/ashu-savani/arctic-digital-design
+
+Previous versions of this software have been shipped out. The credentials to log in are:
+
+    username: admin
+    password: defaultpass

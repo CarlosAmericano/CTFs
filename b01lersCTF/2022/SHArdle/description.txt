@@ -1,0 +1,6 @@
+Five-letter words are for losers...
+(btw, color terminal advised)
+nc ctf.b01lers.com 9102
+
+Author: dm
+Difficulty: Medium

@@ -1,0 +1,10 @@
+https://github.com/Ganapati/RsaCtfTool
+
+git clone https://github.com/Ganapati/RsaCtfTool.git
+sudo apt-get install libgmp3-dev libmpc-dev
+cd RsaCtfTool
+pip3 install -r "requirements.txt"
+python3 RsaCtfTool.py
+
+
+python3 ./RsaCtfTool.py -n 831416828080417866340504968188990032810316193533653516022175784399720141076262857 -e 65537 --uncipher 240986837130071017759137533082982207147971245672412893755780400885108149004760496

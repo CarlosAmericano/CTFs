@@ -1,0 +1,3 @@
+An Elf-ministrator, has a network capture file from a computer and needs help to figure out what went on! Are you able to help?
+
+Supporting material for the challenge can be found here! 

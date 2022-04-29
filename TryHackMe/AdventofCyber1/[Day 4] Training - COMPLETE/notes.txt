@@ -1,0 +1,13 @@
+[mcsysadmin@ip-10-10-78-129 ~]$ cat /etc/passwd | grep bash
+root:x:0:0:root:/root:/bin/bash
+ec2-user:x:1000:1000:EC2 Default User:/home/ec2-user:/bin/bash
+mcsysadmin:x:1001:1001::/home/mcsysadmin:/bin/bash
+
+
+[mcsysadmin@ip-10-10-78-129 ~]$ find / -name shadow* 2>/dev/null
+/etc/shadow
+/etc/shadow-
+/var/shadow.bak
+	
+	
+	

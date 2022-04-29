@@ -1,0 +1,4 @@
+Security through obscurity is no match for you!
+
+Author: novafacing
+Difficulty: Easy

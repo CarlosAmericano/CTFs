@@ -1,0 +1,2 @@
+echo 'obase=2; ibase=10; 42' | bc
+101010

@@ -1,0 +1,59 @@
+(gdb) set disassembly-flavor intel
+(gdb) info functions
+All defined functions:
+
+Non-debugging symbols:
+0x0000000000401000  _init
+0x0000000000401030  printf@plt
+0x0000000000401040  fgets@plt
+0x0000000000401050  _start
+0x0000000000401080  _dl_relocate_static_pie
+0x0000000000401090  deregister_tm_clones
+0x00000000004010c0  register_tm_clones
+0x0000000000401100  __do_global_dtors_aux
+0x0000000000401130  frame_dummy
+0x0000000000401140  check
+0x00000000004013e0  main
+0x0000000000401470  __libc_csu_init
+0x00000000004014e0  __libc_csu_fini
+0x00000000004014e8  _fini
+ 
+ (gdb) disassemble main
+Dump of assembler code for function main:
+   0x0000000000401411 <+49>:    mov    DWORD PTR [rbp-0x44],eax
+   0x0000000000401414 <+52>:    call   0x401040 <fgets@plt>
+   0x0000000000401419 <+57>:    lea    rdi,[rbp-0x40]
+   0x000000000040141d <+61>:    mov    QWORD PTR [rbp-0x50],rax
+   0x0000000000401421 <+65>:    call   0x401140 <check>
+
+ Dump of assembler code for function check:
+   0x0000000000401140 <+0>:     push   rbp
+   0x0000000000401141 <+1>:     mov    rbp,rsp
+   0x0000000000401144 <+4>:     mov    QWORD PTR [rbp-0x10],rdi
+   0x0000000000401148 <+8>:     mov    rax,QWORD PTR [rbp-0x10]
+   0x000000000040114c <+12>:    movsx  ecx,BYTE PTR [rax]
+   0x000000000040114f <+15>:    cmp    ecx,0x62
+   0x0000000000401152 <+18>:    je     0x401164 <check+36>
+   0x0000000000401158 <+24>:    mov    DWORD PTR [rbp-0x4],0x0
+   0x000000000040115f <+31>:    jmp    0x4013cc <check+652>
+   0x0000000000401164 <+36>:    mov    rax,QWORD PTR [rbp-0x10]
+   0x0000000000401168 <+40>:    movsx  ecx,BYTE PTR [rax+0x1]
+   0x000000000040116c <+44>:    cmp    ecx,0x63
+   0x000000000040116f <+47>:    je     0x401181 <check+65>
+   0x0000000000401175 <+53>:    mov    DWORD PTR [rbp-0x4],0x0
+   0x000000000040117c <+60>:    jmp    0x4013cc <check+652>
+   0x0000000000401181 <+65>:    mov    rax,QWORD PTR [rbp-0x10]
+   0x0000000000401185 <+69>:    movsx  ecx,BYTE PTR [rax+0x2]
+   0x0000000000401189 <+73>:    cmp    ecx,0x74
+   0x000000000040118c <+76>:    je     0x40119e <check+94>
+   0x0000000000401192 <+82>:    mov    DWORD PTR [rbp-0x4],0x0
+   0x0000000000401199 <+89>:    jmp    0x4013cc <check+652>
+   0x000000000040119e <+94>:    mov    rax,QWORD PTR [rbp-0x10]
+
+and so on and on
+
+Tried to identify the return pointer but moved on and copied all the bytes
+
+
+
+ 62 63 74 66 7b 31 33 33 26 5f 6c 65 74 6d 65 69 6e 5f 31 32 33 7d
