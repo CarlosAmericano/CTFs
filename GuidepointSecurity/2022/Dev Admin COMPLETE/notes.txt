@@ -1,0 +1,4 @@
+found cookie that base 64 decode read
+administrator:false
+changed to true and encoded
+set the cookie

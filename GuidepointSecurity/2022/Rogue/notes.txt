@@ -1,0 +1,7 @@
+$geturl='http://10.10.100.200:54797/number/'
+$number = (Invoke-WebRequest -UseBasicParsing -Uri $geturl).content
+#Write-Host $number
+
+$posturl='http://10.10.100.200:54797/number/?answer='+$number
+$answer= (Invoke-WebRequest -UseBasicParsing -Uri $posturl -Method Post).content
+Write-Host $answer
