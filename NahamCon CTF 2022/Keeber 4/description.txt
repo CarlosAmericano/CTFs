@@ -1,0 +1,6 @@
+Keeber 4318 points - OSINT - 192 Solves - medium
+Author: @matlac#2291, @Gary#4657
+
+The ex-employee also left the company password database exposed to the public through GitHub. Since the password is shared throughout the company, it must be easy for employees to remember. The password used to encrypt the database is a single lowercase word somehow relating to the company. Make a custom word list using the Keeber Security Groups public facing information, and use it to open the password database The flag is in regular format.
+
+(Hint: John the Ripper may have support for cracking .kdbx password hashes!)

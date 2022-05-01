@@ -1,0 +1,16 @@
+Steam Locomotive
+50 points - Miscellaneous - 521 Solves - easy
+Expires in: 00:53:33
+Author: @JohnHammond#6971
+
+I keep accidentally mistyping the ls command!
+
+Press the Start button on the top-right to begin this challenge.
+Connect with:
+# Password is "userpass"
+ssh -p 31238 user@challenge.nahamcon.com
+
+
+linux@ubuntu:~$ ssh -p 31238 user@challenge.nahamcon.com -T cat flag.txt
+user@challenge.nahamcon.com's password:
+flag{4f9b10a81141c7a07a494c28bd91d05b}

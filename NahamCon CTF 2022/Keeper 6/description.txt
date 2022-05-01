@@ -1,0 +1,10 @@
+Keeber 6368 points - OSINT - 164 Solves - medium
+Author: @matlac#2291, @Gary#4657
+
+After all of the damage the ex-employee's mistakes caused to the company, the Keeber Security Group is suing them for negligence! In order to file a proper lawsuit, we need to know where they are so someone can go and serve them. Can you find the ex-employee’s new workplace? The flag is in regular format, and can be found in a recent yelp review of their new workplace.
+
+(Hint: You will need to pivot off of the email found in the past challenge!)
+
+
+ <tif.hearts.science@gmail.com>
+ 

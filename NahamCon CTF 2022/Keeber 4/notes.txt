@@ -1,0 +1,20 @@
+user]~$ sudo apt-get -y install build-essential libssl-dev git zlib1g-dev
+[user]~$ sudo apt-get -y install yasm libgmp-dev libpcap-dev pkg-config libbz2-dev
+Next, clone the latest version of JtR from the GIT repo and build it
+
+[user]~$ cd ~/Documents/crackpass
+[user]~$ git clone git://github.com/magnumripper/JohnTheRipper -b bleeding-jumbo john 
+[user]~$ cd  john/src
+[user]~$ ./configure && make -s clean && make -sj4
+Install tab completion
+
+[user]~$ sudo make shell-completion
+Now test your build. This took about 5 minutes on my machines
+
+[user]~$ cd ~/Documents/crackpass/john/run
+[user]~$ ./john --test=0
+JtR test And (optionally) benchmark the build. Note that this can take 25+ minutes and is NOT required
+
+[user]~$ ./john --test
+Installing HashCat
+Some Linux instilations come with hashcat built in or a version you can download with apt-get. But, hashcat recommends compiling from their github, so that's what we're going to do.

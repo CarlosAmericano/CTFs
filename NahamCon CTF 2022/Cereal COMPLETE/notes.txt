@@ -1,0 +1,13 @@
+Cereal
+331 points - Hardware/RF - 185 Solves - easy
+Author: @BusesCanFly (@🤖👾#2237)
+
+"Oh no I dropped my cereal!!"
+
+Download the file below. Note, this is a large file and may take some time to download.
+
+https://ideas.saleae.com/f/changelog/
+
+
+ flag{5c4596b35aeb122209b34cccfcdb56c1} oh and https://bit.ly/3k4iuPm
+ 
