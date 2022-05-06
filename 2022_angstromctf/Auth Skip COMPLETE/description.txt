@@ -1,0 +1,6 @@
+Auth SkipWeb40454
+Clam was doing his angstromCTF flag% speedrun when he ran into the infamous timesink known in the speedrunning community as "auth". Can you pull off the legendary auth skip and get the flag?
+
+Source
+
+Author: aplet123

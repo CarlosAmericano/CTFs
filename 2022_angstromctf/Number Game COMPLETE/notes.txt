@@ -1,0 +1,38 @@
+Used cloud.binary.ninja to debug code
+
+Q1.
+
+rax_1 = 0 
+rax_2 = read_int() 
+var_c = rax_2 
+if (var_c == 314159265)
+
+314159265
+
+
+Q2
+
+rax_5 = 0 
+rax_6 = read_int() 
+var_10_1 = rax_6 
+rdx = 314159265 
+rax_7 = var_10_1 
+rax_8 = rax_7 + 314159265 
+if (rax_8 == 513371337)
+
+199212072
+
+
+Q3
+
+rdx_1 = [stdin]
+rdi_2 = &var_58
+fgets(rdi_2, 0x40, rdx_1)
+rdi_3 = &var_58
+rax_9 = strcspn(rdi_3, data_2064)
+[&var_58 + rax_9].b = 0
+rdi_4 = &var_58
+rax_10 = strcmp(rdi_4, "the airspeed velocity of an unla…")
+if (rax_10 == 0) then 38 @ 0x136d else 44 @ 0x135a
+
+the airspeed velocity of an unladen swallow

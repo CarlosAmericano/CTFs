@@ -1,0 +1,9 @@
+Just strings the binary
+
+actf{emhH
+paidmezeH
+rodollarH
+stomaketH
+hischallH
+enge_amoH
+gus}

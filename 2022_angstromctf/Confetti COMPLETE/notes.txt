@@ -1,0 +1,25 @@
+strings confetti.png | grep actf 
+No luck
+
+https://aperisolve.fr/
+No luck
+
+tried binwalk and take a look at the files but couldnt expand the zlib ?? files
+
+linux@ubuntu:~/Documents/confetti$ binwalk confetti.png
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 3971 x 2918, 8-bit/color RGBA, non-interlaced
+115           0x73            Zlib compressed data, default compression
+967339        0xEC2AB         PNG image, 3971 x 2918, 8-bit/color RGBA, non-interlaced
+967454        0xEC31E         Zlib compressed data, default compression
+1934678       0x1D8556        PNG image, 3971 x 2918, 8-bit/color RGBA, non-interlaced
+1934732       0x1D858C        TIFF image data, big-endian, offset of first image directory: 8
+3180408       0x308778        PNG image, 3971 x 2918, 8-bit/color RGBA, non-interlaced
+3180523       0x3087EB        Zlib compressed data, default compression
+
+
+Tried binwalk again with a different command and renamed all the files correctly, one of them had the text on it.
+
+binwalk --dd=".*" confetti.png -e

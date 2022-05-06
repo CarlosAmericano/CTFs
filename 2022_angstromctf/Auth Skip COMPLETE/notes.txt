@@ -1,0 +1,4 @@
+A "correct" login sets this cookie
+res.cookie("user", "admin");
+
+Add it manually and win

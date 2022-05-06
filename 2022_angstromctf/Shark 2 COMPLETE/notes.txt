@@ -1,0 +1,12 @@
+https://packetlife.net/blog/2009/jul/13/quick-packet-capture-data-extraction/
+
+Wireshark
+
+Step 1: Isolate the desired data stream
+This is most easily done by selecting a packet within the stream containing the data you want to extract and selecting "Follow TCP (or UDP) Stream" from the right-click context menu.
+
+
+Step 2: Extract raw unidirectional data
+Wireshark marks transmitted and received data in red and blue, respectively. For the purpose of this example, we're only interested in the received data, so we restrict the stream parser to show only inbound (blue) packets by selecting that direction from the option at bottom.
+
+Now to extract this data. Ensure that the Raw option is selected and click Save As to export the binary data. For our example, I've saved the dump to disk as "example.raw".

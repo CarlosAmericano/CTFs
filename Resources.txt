@@ -1,0 +1,19 @@
+Steg
+https://aperisolve.fr/
+
+
+Cipher
+https://www.dcode.fr/
+https://www.quipqiup.com/
+
+
+Reverse
+https://cloud.binary.ninja/
+
+
+Web
+Ngrok and https://webhook.site for call backs
+
+
+General
+https://book.hacktricks.xyz/generic-methodologies-and-resources/pentesting-methodology

@@ -1,0 +1,8 @@
+Number GameRev70346
+Step right up and enter clam's number game! Winners get one (1) free flag!!!
+
+Connect to it at nc challs.actf.co 31334.
+
+Author: aplet123
+
+Show HintShow Solves

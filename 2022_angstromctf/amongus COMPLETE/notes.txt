@@ -1,0 +1,23 @@
+wget https://files.actf.co/24c8533a9a7890d1706000cf803decfb93eb9fb86bc58bd7e960757563e13272/amongus.tar.gz
+
+Expand
+gunzip amongus.tar.gz
+tar -xvf amongus.tar out/
+
+Check how many files
+ls | wc -l
+
+
+
+sudo apt install fdupes
+fdupes . -d -N
+
+These are the last ones remaining
+actf{look1ng_f0r_answers_in_the_p0uring_r4in_4d23ba99b327}.txt  
+actf{look1ng_f0r_answers_in_the_p0uring_r4in_b21f9732f829}.txt
+
+
+actf{look1ng_f0r_answers_in_the_p0uring_r4in_b21f9732f829}
+is the flag
+
+
