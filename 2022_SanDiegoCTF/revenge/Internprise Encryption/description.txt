@@ -1,0 +1,7 @@
+Internprise Encryption
+Our new intern Dave encrypted all of our important company files with his homemade "military grade encryption scheme" to try and improve company security. The thing is... he didn’t make the “decryption” part and we didn’t make backups.
+Attachments
+files.zip
+Note
+If your flag has a ' in it, remove before submitting. Discord doesn't like it.
+By Infernis

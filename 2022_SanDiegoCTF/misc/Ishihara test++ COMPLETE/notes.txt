@@ -1,0 +1,4 @@
+0f0f0f - black
+faf7f7 - white
+
+flag needs c4  / c5

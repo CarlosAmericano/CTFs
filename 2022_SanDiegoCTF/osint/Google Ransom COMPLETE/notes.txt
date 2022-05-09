@@ -1,0 +1,18 @@
+https://www.linkedin.com/pulse/how-prevent-sharing-your-email-when-google-drive-steven-rider
+
+Step 1:
+While logged into your Google account, open any file that's shared with you (such as this one I just mentioned). Click around the file a couple of times just to ensure you're viewing it. Note that if you click on FILE--> Document Details, Google does not disclose ANY information about the file owner.
+
+No info on file Owner shown here
+The fact that the user's email is not shown in the document details menu leads me to suspect that Google is unintentionally displaying the information we are about to see...
+
+Step 2:
+Close the file. Then navigate to your recently opened Google Drive files (or click here) . You should see the file you just opened at the top of this list (if not, resort by recent activity). Select it, without opening it.
+
+Select file under recent files, but do not open
+Step 3:
+While selected, to the right, you should be able to see a window that shows two tabs DETAILS and ACTIVITY. If you don't see this, you may need to click on show details in the upper right corner (the circled i). This will display items such as the owner's picture, and all historical edits made to the file.
+
+Make sure you're on details.
+Last step to find email:
+When looking at the DETAILS tab, if you hover over the owner's name with your cursor, the owner's email address displays as a gray popup. It's small and subtle, but definitely there.

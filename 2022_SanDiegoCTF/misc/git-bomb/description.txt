@@ -1,0 +1,10 @@
+Git Bomb
+Welcome to git-commit-as-a-service (GCaaS). Give me your git repository and I will commit it for you.
+Instructions
+1. Prepare your Git repo in a gzipped tarball using the provided script prepare-git-repo.sh
+⠀
+2. Run this command to upload: curl -F 'repo=@/path/to/your/git/repo.tar.gz' https://gcaas.sdc.tf/
+⠀
+Warning: we are currently in beta so you cannot download the repo afterwards.
+⠀
+Flag is located at /flag.

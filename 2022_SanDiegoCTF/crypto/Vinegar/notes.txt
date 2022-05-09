@@ -1,0 +1,2 @@
+https://www.boxentriq.com/code-breaking/vigenere-cipher
+41878	unknownkey	couldnt use leet strings in this one sadly but we made it extra long to compensate

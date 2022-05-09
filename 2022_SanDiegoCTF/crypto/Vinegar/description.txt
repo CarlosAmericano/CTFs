@@ -1,0 +1,6 @@
+Vinegar
+My friend gave me another encrypted flag...I think they hate me! I heard them yell something about “Vinegar”, but I still don’t know what they’re talking about!
+Ciphertext
+{wbeyrjgewcfroggpesremvxgvefyrcmnnymxhdacgnnrwprhxpuyyaupbmskjrxfopr}
+Note
+My friend also yelled something about “preventing plaintext attacks” and said once I’ve decrypted this, I’ll need to append sdctf to the front of it.

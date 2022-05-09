@@ -1,0 +1,4 @@
+Solves: 102  Easy
+Find the Gallery, find Mr. Gud, find the cow.
+
+Flag format: EZ-CTF{Mr_Gud_Full_Name_Cow_Painting_Name}

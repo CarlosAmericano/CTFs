@@ -1,0 +1,6 @@
+https://stuartcollection.ucsd.edu/artist/bradford.html
+https://www.google.ie/maps/place/What+Hath+God+Wrought/@32.8752179,-117.2429636,17z/data=!3m1!4b1!4m5!3m4!1s0x80dc07e0d30e81a7:0x69087278617d6b1d!8m2!3d32.8752134!4d-117.2407749
+
+Flag format: sdctf{latitude,longitude} using decimal degrees and 3 decimal places rounded toward zero (Ex. 4.1239 → 4.123, -4.0009 → -4.000)
+
+sdctf{32.875,-117.240}

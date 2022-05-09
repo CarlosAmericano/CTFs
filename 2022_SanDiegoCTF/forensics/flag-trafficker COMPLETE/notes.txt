@@ -1,0 +1,2 @@
+https://marcellelee.medium.com/ctf-challenge-walkthrough-network-traffic-analysis-rogue-user-f87ae923130
+The first step I typically take when analyzing a PCAP is to take a look at the captured protocols. This is done by accessing Statistics > Protocol Hierarchy. This is intentionally a pretty pared down capture, so we only see a few protocols listed.

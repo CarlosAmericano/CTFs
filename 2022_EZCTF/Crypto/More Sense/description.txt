@@ -1,0 +1,4 @@
+This is too easy!
+You will make more sense of it in no time!
+
+Flag format: EZ-CTF{ALL_CAPS_MESSAGE}

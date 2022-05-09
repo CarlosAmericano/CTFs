@@ -1,0 +1,1 @@
+EZ-CTF{LFI_1S_3Z}

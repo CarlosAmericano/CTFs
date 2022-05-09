@@ -1,0 +1,8 @@
+Where is this?
+https://www.youtube.com/watch?v=fDGVF1fK1cA
+
+Flag format: sdctf{latitude,longitude} using decimal degrees and 3 decimal places rounded toward zero (Ex. 4.1239 → 4.123, -4.0009 → -4.000)
+
+Example: If the location were https://goo.gl/maps/TnhzfxXKg9TDYDfR9 the flag would be sdctf{38.889,-77.035}
+Note
+The youtube channel/account is not relevant to this challenge. Only the video content is relevant.
