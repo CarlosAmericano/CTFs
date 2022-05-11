@@ -1,0 +1,16 @@
+What is Lola's date of birth? Format: Month Date, Year(e.g November 12, 2019)
+December 29, 1900
+
+What is Lola's current occupation?
+Santa's Helper
+
+What phone does Lola make?
+iPhone X
+
+What date did Lola first start her photography? Format: dd/mm/yyyy
+23/10/2014
+https://web.archive.org/web/20191023204650/https://lolajohnson1998.wordpress.com/
+
+What famous woman does Lola have on her web page?
+ada lovelace
+https://lolajohnson1998.files.wordpress.com/2019/10/reverse_image_search.jpg

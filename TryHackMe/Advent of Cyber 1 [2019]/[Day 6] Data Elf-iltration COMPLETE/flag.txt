@@ -1,0 +1,8 @@
+What data was exfiltrated via DNS?
+Candy Cane Serial Number 8491
+
+What did Little Timmy want to be for Christmas?
+PenTester
+
+What was hidden within the file?
+RFC527

@@ -1,0 +1,11 @@
+how many TCP ports under 1000 are open?
+3
+
+What is the name of the OS of the host?
+Linux
+
+What version of SSH is running?
+7.4
+
+What is the name of the file that is accessible on the server you found running?
+interesting.file

@@ -1,0 +1,22 @@
+DNS queries
+43616e64792043616e652053657269616c204e756d6265722038343931.holidaythief.com
+hex to ascii
+Candy Cane Serial Number 8491
+Wireshark - Export Objects
+
+
+linux@ubuntu:~/Documents/t2h$ steghide --extract -sf TryHackMe.jpg
+Enter passphrase:
+wrote extracted data to "christmasmonster.txt".
+linux@ubuntu:~/Documents/t2h$ cat christmasmonster.txt
+                              ARPAWOCKY
+                               RFC527
+
+
+linux@ubuntu:~/Documents/t2h$ fcrackzip --brute-force --dictionary -p ../wordlists/rockyou.txt christmaslists.zip -v
+found file 'christmaslistdan.tx', (size cp/uc     91/    79, flags 9, chk 9a34)
+found file 'christmaslistdark.txt', (size cp/uc     91/    82, flags 9, chk 9a4d)
+found file 'christmaslistskidyandashu.txt', (size cp/uc    108/   116, flags 9, chk 9a74)
+found file 'christmaslisttimmy.txt', (size cp/uc    105/   101, flags 9, chk 9a11)
+possible pw found: december ()
+

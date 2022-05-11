@@ -17,3 +17,21 @@ Ngrok and https://webhook.site for call backs
 
 General
 https://book.hacktricks.xyz/generic-methodologies-and-resources/pentesting-methodology
+
+OSINT
+https://archive.org/web/
+https://whatsmyname.app/
+
+
+Network Enum
+nmap -sC -sV -O -oA nmap/initial $IP
+
+
+Privilige Escalation
+https://gtfobins.github.io/
+
+SUID executables
+find / -user root -perm -4000 -exec ls -ldb {} \; 2>/dev/null
+find xxx -exec whoami \;
+find . -exec /bin/sh -p \; -quit
+
