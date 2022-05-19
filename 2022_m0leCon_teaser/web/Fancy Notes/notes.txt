@@ -1,0 +1,14 @@
+Given the category (web + cryto), think the vul lies in the cookie generator
+created account
+
+CarlosA
+12345678
+
+dXNlcm5hbWU9Q2FybG9zQSxsb2NhbGU9ZW58YTE1YTlmNjVmZjg4OGY3ODM0NjI3YTg1NjBkNWIxNzg0NGJkNDA1MmYyYjI4ZGU2ZTZkMTI4NmZhNjU4YzRjOQ==
+
+
+cookie is a base 64 encoded string that decodes to this
+username=CarlosA,locale=en|a15a9f65ff888f7834627a8560d5b17844bd4052f2b28de6e6d1286fa658c4c9
+
+username=CarlosA,locale=en in sha256
+a46ab51d87a49b548fb2deb12bce3be1f5fab9381c229a031a917cce48156f9f

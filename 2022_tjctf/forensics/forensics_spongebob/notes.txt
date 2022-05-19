@@ -1,0 +1,3 @@
+Used tweakpng to remove the first IEND chunk
+then resized it
+

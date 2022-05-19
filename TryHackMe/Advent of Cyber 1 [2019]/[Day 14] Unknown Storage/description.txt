@@ -1,0 +1,9 @@
+McElferson opens today's news paper and see's the headline
+
+Private information leaked from the best festival company
+
+This shocks her! She calls in her lead security consultant to find out more information about this. How do we not know about our own s3 bucket. 
+
+McSkidy's only starting point is a single bucket name: advent-bucket-one
+
+Check out the supporting material here.

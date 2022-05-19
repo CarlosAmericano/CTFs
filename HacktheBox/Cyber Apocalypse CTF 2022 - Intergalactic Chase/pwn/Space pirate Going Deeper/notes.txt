@@ -1,0 +1,22 @@
+"DRAEGER15th30n34nd0nly4dm1n15tr4t0R0fth15sp4c3cr4ft"
+
+  if (((param_1 != 0xdeadbeef) || (param_2 != 0x1337c0de)) || (param_3 != 0x1337beef)) {
+    iVar1 = strncmp("DRAEGER15th30n34nd0nly4dm1n15tr4t0R0fth15sp4c3cr4ft",local_38,0x34);
+    if (iVar1 != 0) {
+
+
+    python3
+>>> from pwn import *
+
+
+>>> p32(0xdeadbeef)
+b'\xef\xbe\xad\xde'
+>>> p32(0x1337c0de)
+b'\xde\xc07\x13'
+>>> p32(0x1337beef)
+b'\xef\xbe7\x13'
+
+DRAEGER15th30n34nd0nly4dm1n15tr4t0R0fth
+
+
+python3 -c "print (b'1' +b'\xef\xbe\xad\xde' +b'\xde\xc07\x13' +b'\xef\xbe7\x13')" | nc 104.248.162.86 32010

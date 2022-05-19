@@ -1,0 +1,6 @@
+PS C:\temp\tosend> Get-FileHash .\note1.txt.gpg -Algorithm MD5
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+MD5             24CF615E2A4F42718F2FF36B35614F8F                                       C:\temp\tosend\note1.txt.gpg
+

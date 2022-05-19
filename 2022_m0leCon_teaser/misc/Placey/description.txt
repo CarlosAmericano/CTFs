@@ -1,0 +1,9 @@
+I was really sad when r/place ended so I built my own.
+Mirror 1
+Mirror 2
+Mirror 3
+Mirror 4
+
+Note: flag is in /root/flag.txt
+
+Author: @0000matteo0000

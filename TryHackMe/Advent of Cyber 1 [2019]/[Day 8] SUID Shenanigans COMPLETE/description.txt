@@ -1,0 +1,10 @@
+Elf Holly is suspicious of Elf-ministrator and wants to get onto the root account of a server he setup to see what files are on his account. The problem is, Holly is a low-privileged user.. can you escalate her privileges and hack your way into the root account?
+
+Deploy and SSH into the machine.
+Username: holly
+Password: tuD@4vt0G*TU
+
+SSH is not running on the standard port.. You might need to nmap scan the machine to find which port SSH is running on.
+nmap <machine_ip> -p <start_port>-<end_port>
+
+Read the supporting materials here.

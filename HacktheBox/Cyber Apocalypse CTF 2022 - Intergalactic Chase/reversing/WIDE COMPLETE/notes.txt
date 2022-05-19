@@ -1,0 +1,5 @@
+iVar1 = wcscmp(local_1c8,L"sup3rs3cr3tw1d3")
+
+Which dimension would you like to examine? 6
+[X] That entry is encrypted - please enter your WIDE decryption key: sup3rs3cr3tw1d3
+HTB{str1ngs_4r3nt_4lw4ys_4sc11}

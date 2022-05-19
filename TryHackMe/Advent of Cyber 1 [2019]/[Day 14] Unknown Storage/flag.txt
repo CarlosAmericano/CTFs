@@ -1,0 +1,5 @@
+What is the name of the file you found?
+employee_names.txt
+
+What is in the file?
+mcchef

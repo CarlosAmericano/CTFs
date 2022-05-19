@@ -1,0 +1,23 @@
+1. Scan card 💳
+2. Insert password ↪️
+> 1
+
+[!] Scanning card.. Something is wrong!
+
+Insert card's serial number: 12
+
+Your card is: 12
+▒
+
+[-] Invalid ID! Intruder detected! 🚨 🚨
+
+
+
+
+1. Scan card 💳
+2. Insert password ↪️
+> 2
+[*] Insert password: l
+
+[+] Door opened, you can proceed with the passphrase: HTB{th3_g4t35_4r3_0p3n!}
+[-] Invalid option! Intruder detected! 🚨 🚨

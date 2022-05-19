@@ -1,0 +1,11 @@
+Once deployed, the machine will take 4 to 5 minutes to boot and configure. Please be patient.
+
+Hi Lindsey here. I've been a great Elf all year, but there was one incident and now I think I'm on Santa's naughty list.
+
+What? You didn't think us elves got presents too? Well we do and we get first pick of the pressies!
+
+Can you help me hack into Santa's system that keeps track of the naughty and nice people to see if I am on it?
+
+
+
+Check out the blog post shown above to help you on this task.

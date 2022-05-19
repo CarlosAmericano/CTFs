@@ -1,0 +1,8 @@
+Saw this kind of challenge before...this app opens these sal files
+
+https://ideas.saleae.com/f/changelog/
+
+No idea what to do next, barcode readers dont decode it
+doesnt look like binary / morse code readable stuff
+
+Must be some kind of encoding that is specific for this
