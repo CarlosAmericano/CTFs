@@ -1,0 +1,51 @@
+Extensions: php, aspx, jsp, html, js | HTTP method: GET | Threads: 25
+Wordlist size: 220545
+
+Output File: /home/linux/Documents/dirsearch/dirsearch/reports/challenges.hackrocks.com/_lechuck__22-05-21_08-22-34.txt
+
+Target: https://challenges.hackrocks.com/lechuck/
+
+[08:22:35] Starting:
+[08:22:36] 404 -   22B  - /lechuck/images
+[08:22:37] 404 -   22B  - /lechuck/careers
+
+
+not going anywhere here
+
+linux@ubuntu:~/Documents$ gobuster -u https://challenges.hackrocks.com/lechuck/ -w wordlists/DirBuster-Lists/directory-list-2.3-medium.txt
+
+=====================================================
+Gobuster v2.0.1              OJ Reeves (@TheColonial)
+=====================================================
+[+] Mode         : dir
+[+] Url/Domain   : https://challenges.hackrocks.com/lechuck/
+[+] Threads      : 10
+[+] Wordlist     : wordlists/DirBuster-Lists/directory-list-2.3-medium.txt
+[+] Status codes : 200,204,301,302,307,403
+[+] Timeout      : 10s
+
+
+getting better results
+
+Its a ngnix setup there, any 404 gets a custom message saying nothing to see here (only seems to be inside this /lechuck site), outside of it we get a normal 404
+
+doing a scan on the parent site
+found something sbut nothing to do with the challenge
+
+
+Clue nº 1
+Have you searched for common endpoints?
+
+Clue nº 2
+Have you found the /user endpoint yet?
+
+This might have worked but getting 503
+linux@ubuntu:~/Documents/apilists/api_wordlist$ gobuster -u https://challenges.hackrocks.com/lechuck -w objects-lowercase.txt -t 1 -v
+
+
+
+https://challenges.hackrocks.com/lechuck/user/lechuck
+
+lechuck,{flag}MBZICNIBRM
+Clue nº 3
+Not all DBs are SQL...

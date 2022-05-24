@@ -13,7 +13,7 @@ https://cloud.binary.ninja/
 
 Web
 Ngrok and https://webhook.site for call backs
-
+https://zweilosec.gitbook.io/hackers-rest/web/web-notes
 
 General
 https://book.hacktricks.xyz/generic-methodologies-and-resources/pentesting-methodology

