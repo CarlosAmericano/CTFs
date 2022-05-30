@@ -1,0 +1,4 @@
+view-source:https://ctflearn.com/robots.txt
+User-agent: *<br>
+Disallow: /70r3hnanldfspufdsoifnlds.html
+        
