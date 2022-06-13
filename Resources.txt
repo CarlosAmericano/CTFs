@@ -1,20 +1,21 @@
-Steg
+## Steg
 https://aperisolve.fr/
+https://0xrick.github.io/lists/stego/
 
-
-Cipher
+## Cipher
 https://www.dcode.fr/
 https://www.quipqiup.com/
 
 	RSA
 	python3 ./RsaCtfTool.py 
 
-Reverse
+
+## Reverse
 https://cloud.binary.ninja/
 
 
-Web
-Ngrok and https://webhook.site for call backs
+##Web
+	Ngrok and https://webhook.site for call backs
 https://zweilosec.gitbook.io/hackers-rest/web/web-notes
 
 Bruteforce login forms
@@ -24,6 +25,7 @@ Burp / Intruder / Set payloads / Fill payload data / Clusterbomb
 
 General
 https://book.hacktricks.xyz/generic-methodologies-and-resources/pentesting-methodology
+https://trailofbits.github.io/ctf/.
 
 
 SECLISTS
