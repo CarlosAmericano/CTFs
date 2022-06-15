@@ -36,8 +36,7 @@ https://archive.org/web/
 https://whatsmyname.app/
 
 
-Network Enum
-nmap -sC -sV -O -oA nmap/initial $IP
+
 
 
 Privilige Escalation
