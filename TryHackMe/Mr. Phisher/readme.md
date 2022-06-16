@@ -1,16 +1,16 @@
 # DESCRIPTION
 
+Mr. Phisher
+
 ## Task 1  Mr. Phisher
 
 I received a suspicious email with a very weird-looking attachment. It keeps on asking me to "enable macros". What are those?
 
-
-# NOTES
-
-## Task 1  Mr. Phisher
+## NOTES
 
 Found this macro code in the document
 
+``` vb
 Rem Attribute VBA_ModuleType=VBAModule
 Option VBASupport 1
 Sub Format()
@@ -21,11 +21,11 @@ For i = 0 To UBound(a)
 b = b & Chr(a(i) Xor i)
 Next
 End Sub
-
-
-# FLAG
-
-## Task 1  Mr. Phisher
+```
 
 Coded the powershell script to decode the above
+![solve.ps1](/solve.ps1)
+
+## FLAG
+
 flag{a39a07a239aacd40c948d852a5c9f8d1}
