@@ -24,7 +24,7 @@ End Sub
 ```
 
 Coded the powershell script to decode the above
-![solve.ps1](/solve.ps1)
+![solve.ps1](../../TryHackMe/Mr.%20Phisher/solve.ps1)
 
 ## FLAG
 
