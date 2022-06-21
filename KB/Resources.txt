@@ -18,8 +18,7 @@ https://cloud.binary.ninja/
 	Ngrok and https://webhook.site for call backs
 https://zweilosec.gitbook.io/hackers-rest/web/web-notes
 
-Bruteforce login forms
-Burp / Intruder / Set payloads / Fill payload data / Clusterbomb 
+
 
 
 
