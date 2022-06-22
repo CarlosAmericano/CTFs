@@ -28,6 +28,7 @@ OS Name:                   Microsoft Windows Server 2016 Datacenter
 ### Which user logged in last?
 
 Answer format: *************
+
 administrator
 
 Security Event log, filter 4624
