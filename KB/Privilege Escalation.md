@@ -1,5 +1,9 @@
 # Privilege Escalation
 
+sudo -l
+
+Shows what the user can run as root without needing the root password
+
 ## https://gtfobins.github.io/
 
 ## SUID executables
