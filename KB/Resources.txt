@@ -19,7 +19,7 @@ https://cloud.binary.ninja/
 https://zweilosec.gitbook.io/hackers-rest/web/web-notes
 
 
-
+There are a few provided tools on this Windows instance that are capable of identifying the compiler / packer of a file. However, PeID has a huge database and is a great tool for this.
 
 
 General
