@@ -50,3 +50,27 @@ Release notes for the 1.3 version
 http://10.10.158.89/tmp.zip
 
 THM{KEEP_YOUR_SOFTWARE_UPDATED}
+
+## Task 4  Developer Tools - Inspector
+
+### What is the flag from the HTML comment?
+
+``` css
+div.premium-customer-blocker {
+    display: none;
+```
+
+THM{NOT_SO_HIDDEN}
+
+## Task 5  Developer Tools - Debugger
+
+### What is the flag in the red box?
+
+THM{CATCH_ME_IF_YOU_CAN}
+
+
+## Task 6  Developer Tools - Network
+
+### What is the flag shown on the contact-msg network request?
+
+THM{GOT_AJAX_FLAG}

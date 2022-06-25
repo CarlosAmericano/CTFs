@@ -30,10 +30,6 @@ https://trailofbits.github.io/ctf/.
 SECLISTS
 https://github.com/danielmiessler/SecLists
 
-OSINT
-https://archive.org/web/
-https://whatsmyname.app/
-
 
 
 
