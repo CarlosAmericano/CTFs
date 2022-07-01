@@ -8,7 +8,7 @@
 -vv = verbose settings
 -p- = All ports
 
-nmap -sS -sC -sV -O -oA -vv nmap/initial $IP
+sudo nmap -sS -sC -sV -O -oA initialnmap -vv xxxxxxxx
 
 NSE reference
 https://nmap.org/nsedoc/

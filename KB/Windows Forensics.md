@@ -7,3 +7,5 @@ Apart from these files, there is another very important hive called the AmCache 
 
 Zimmerman's Registry Explorer:
 https://ericzimmerman.github.io/#!index.md
+
+## Kape

@@ -23,5 +23,4 @@ sudo nc -lvnp 443
 ## LinPeas
 https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS
 
-## PwnKit
-https://github.com/ly4k/PwnKit
+
