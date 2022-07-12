@@ -24,3 +24,17 @@ sudo nc -lvnp 443
 https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS
 
 
+## 
+https://gtfobins.github.io/gtfobins/python/
+
+
+
+
+## Stabilize shell
+
+to stabilize your shell run :
+
+python -c 'import pty; pty.spawn("/bin/bash")'
+and
+
+python -c 'import os; os.system("/bin/bash")'

