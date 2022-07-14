@@ -7,6 +7,7 @@ Deploy & hack into a Windows machine, leveraging common misconfigurations issues
 
 3
 
+```
 sudo nmap -sS -sC -sV -O -oA initialnmap -vv 10.10.70.21
 
 Nmap scan report for 10.10.70.21
@@ -25,7 +26,7 @@ PORT      STATE SERVICE      REASON          VERSION
 49154/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
 49158/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
 49160/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
-
+```
 
 ### What is this machine vulnerable to? (Answer in the form of: ms??-???, ex: ms08-067)
 
@@ -41,5 +42,17 @@ RHOSTS
 
 
 ## Task 3  Escalate
+
+
+### If you haven't already, background the previously gained shell (CTRL + Z). Research online how to convert a shell to meterpreter shell in metasploit. What is the name of the post module we will use? (Exact path, similar to the exploit we previously selected) 
+post/multi/manage/shell_to_meterpreter
+
+### Select this (use MODULE_PATH). Show options, what option are we required to change?
+Answer format: *******
+
+
+
+
+
 ## Task 4  Cracking
 ## Task 5  Find flags!

@@ -185,7 +185,7 @@ Ubuntu
 
 ### What is the directory that has an upload form page?
 
-/internal
+/internal/
 
 ```
 ubuntu@ubuntu:/opt/Wordlists$ gobuster -u http://10.10.211.64:3333 -w Wordlists/directory_scanner/directory_list_2.3_medium.txt
@@ -210,3 +210,12 @@ Gobuster v2.0.1              OJ Reeves (@TheColonial)
 /server-status (Status: 403)
 Progress: 102562 / 220546 (46.50%)
 ```
+
+## Task 4  Compromise the webserver
+	
+### Try upload a few file types to the server, what common extension seems to be blocked?
+
+.php
+
+### Run this attack, what extension is allowed?
+
